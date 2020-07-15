@@ -17,7 +17,8 @@ This program takes three Excel spreadsheets as input data:
 -	All_Benchmarks.xlsx
 -	Historical_Groundwater_Level_Data.xlsx
 -	Well_Locations_RL.xlsx
-Templates of all these input data are included in the repository.
+
+### Templates of all these input data are included in the repository inside the "input" folder.
 
 **All_Benchmarks.xlsx contains:**
 -	Benchmark labels
@@ -44,7 +45,7 @@ Templates of all these input data are included in the repository.
 
 
 ## Instructions
-1.	Ensure all the input spreadsheets are in the same folder as the python scripts.
+1.	Fill in your data in the input spreadsheets following the templates given in the **input** folder
 2.	Double click Run_Program.py to launch the program
 3.	When the program is launched, you should see a command window and a control panel as follows:
 
