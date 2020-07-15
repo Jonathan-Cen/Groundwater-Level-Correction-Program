@@ -18,7 +18,7 @@ def main():
 
     ################## Read benchmarks Values ##############
 
-    excel_file = 'All_Benchmarks.xlsx'
+    excel_file = 'input/All_Benchmarks.xlsx'
     benchmark_locations = pd.read_excel(excel_file, index_col = 0)   
     benchmark_measurements = benchmark_locations.drop(benchmark_locations.columns[0:2], axis = 1, inplace = False)
 
@@ -56,7 +56,7 @@ def main():
 
     ############## Read RL & Locations ##############
 
-    excel_file = "Well_Locations_RL.xlsx"
+    excel_file = "input/Well_Locations_RL.xlsx"
     Location_RL = pd.read_excel(excel_file)
     Location_RL = Location_RL.drop_duplicates(subset = "Well", keep = "first").set_index("Well")
     Location_RL.to_excel('Outcome_Data/Outcome_GL_Locations_RL.xlsx')
@@ -67,7 +67,7 @@ def main():
 
     ############## Read Historical GW level #########
 
-    excel_file = "Historical_Groundwater_Level_Data.xlsx"
+    excel_file = "input/Historical_Groundwater_Level_Data.xlsx"
     GL = pd.read_excel(excel_file, index_col = 0)
     GL.to_pickle('Pickle_Data/Historical_Groundwater_Level_data.pkl')
     print(excel_file + ' is saved as pickle')
