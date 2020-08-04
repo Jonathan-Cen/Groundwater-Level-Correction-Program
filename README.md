@@ -3,7 +3,7 @@
 ## Summary
 Monitoring geothermal groundwater level will provide useful information about the geothermal reservoir. A common way to measure geothermal groundwater level is by measuring the distance between the groundwater-surface and the wellhead. However, as reservoir pressure changes, subsidence might occur at a particular area, lower the wellhead level, and result in an inaccurate groundwater level measurement. This program is designed to automatically correct the groundwater level of a large number of groundwater wells by referencing the groundwater level to the sea level. Nearby benchmarks’ elevations will be used as representative of the wellhead elevation in the calculation after offset adjustments.
 
-### Note: The data in the input Excel Spreadsheets is arbitrary and does not represent any true data.
+### Note: The input Excel Spreadsheets are templates only and DO NOT contain any true data. Please enter your own data in the templates.
 
 ## Python Version: Python 2.7
 **Modules Required:**
